@@ -1,0 +1,7 @@
+# vsim -do {add wave -r /latch_test/i0/*; run -all; quit} -l latch_test.log -c -wlf latch_test.wlf latch_test 
+# Loading work.latch_test
+# ** Error: (vsim-3033) latch_test.v(11): Instantiation of 'rsff_inst' failed. The design unit was not found.
+#         Region: /latch_test
+#         Searched libraries:
+#             /home/lambda/work/hdl_samples/latch/verilog/work
+# Error loading design
