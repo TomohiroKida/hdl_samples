@@ -7,6 +7,8 @@ hdl_samples
     RSFF
 2. Transparent latch
     LATCH
+3. D flip flop
+    DFF
 
 # Require
 
