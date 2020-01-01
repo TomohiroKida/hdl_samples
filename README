@@ -1,5 +1,5 @@
 hdl_samples
-===
+====
 
 ## Outline
 
@@ -9,6 +9,8 @@ hdl_samples
     LATCH
 3. D flip flop
     DFF
+4. enable D flip flop
+    E_DFF
 
 # Require
 
