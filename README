@@ -1,2 +1,14 @@
+hdl_samples
+===
+
+## Outline
+
 1. RS flip flop
+    RSFF
 2. Transparent latch
+    LATCH
+
+# Require
+
+- iverilog
+- gtkwave
