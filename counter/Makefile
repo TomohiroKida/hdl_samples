@@ -1,8 +1,7 @@
-TOP = DFF
-SIM = DFF_TEST.v
-SRC = $(TOP).v 
-VCD = $(TOP).vcd
-OUT = $(TOP).out
+SIM = counter_test.v
+SRC = counter1.v #counter2.v
+VCD = counter.vcd
+OUT = counter.out
 
 all: $(SIM) $(SRC)
 	iverilog -o $(OUT) $(SIM) $(SRC)
@@ -14,4 +13,4 @@ wave: $(VCD)
 	gtkwave $(VCD)
 
 clean:
-	rm -f $(OUT) $(VCD)
+	rm -f *.out *.vcd

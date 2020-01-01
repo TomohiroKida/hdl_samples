@@ -26,8 +26,6 @@ module DFF_TEST;
    end
 
    initial begin
-      $dumpfile("DFF.vcd");
-      $dumpvars(0, DFF_TEST);
       $monitor($time,," CLK=%b DIN=%b DOUT=%b", CLK, DIN, DOUT);
    end
 

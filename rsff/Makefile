@@ -1,8 +1,7 @@
-TOP = LATCH
-SIM = LATCH_TEST.v
-SRC = $(TOP).v 
-VCD = $(TOP).vcd
-OUT = $(TOP).out
+SIM = rsff_test.v
+SRC = rsff_inst.v rsff.v
+VCD = rsff_inst.vcd
+OUT = rsff_inst.out
 
 all: $(SIM) $(SRC)
 	iverilog -o $(OUT) $(SIM) $(SRC)
@@ -14,4 +13,4 @@ wave: $(VCD)
 	gtkwave $(VCD)
 
 clean:
-	rm -f $(OUT) $(VCD)
+	rm -f *.out *.vcd

@@ -1,8 +1,7 @@
-TOP = E_DFF
-SIM = E_DFF_TEST.v
-SRC = $(TOP).v 
-VCD = $(TOP).vcd
-OUT = $(TOP).out
+SIM = e_dff_test.v
+SRC = e_dff.v 
+VCD = e_dff.vcd
+OUT = e_dff.out
 
 all: $(SIM) $(SRC)
 	iverilog -o $(OUT) $(SIM) $(SRC)
@@ -14,4 +13,4 @@ wave: $(VCD)
 	gtkwave $(VCD)
 
 clean:
-	rm -f $(OUT) $(VCD)
+	rm -f *.out *.vcd

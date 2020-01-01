@@ -4,13 +4,13 @@ hdl_samples
 ## Outline
 
 1. RS flip flop
-    RSFF
+  - rsff
 2. Transparent latch
-    LATCH
+  - latch
 3. D flip flop
-    DFF
+  - dff
 4. enable D flip flop
-    E_DFF
+  - e_dff
 
 # Require
 
