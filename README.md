@@ -11,6 +11,8 @@ hdl_samples
   - dff
 4. enable D flip flop
   - e_dff
+5. up down counter with load
+  - counter
 
 # Require
 
